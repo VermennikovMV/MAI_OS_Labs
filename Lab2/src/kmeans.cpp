@@ -7,7 +7,6 @@
 #include <pthread.h>
 #include <set>
 #include <limits>
-#include <unistd.h> // для sleep(10)
 
 using namespace std;
 
@@ -60,8 +59,6 @@ void *assignment_thread_func(void *arg)
         data->local_sums[min_idx][1] += points[i].second;
         data->local_counts[min_idx]++;
     }
-
-    sleep(10); // Задерживаемся на 10 секунд, чтобы я поймал потоки
 
     pthread_exit(NULL);
 }
