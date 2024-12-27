@@ -1,0 +1,1 @@
+/usr/local/bin/c++ CMakeFiles/computing.dir/computing.cpp.o -o computing  liblab5_7_lib.a -lzmq 

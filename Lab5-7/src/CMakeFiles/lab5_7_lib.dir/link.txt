@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblab5_7_lib.a CMakeFiles/lab5_7_lib.dir/lib.cpp.o
+/usr/bin/ranlib liblab5_7_lib.a

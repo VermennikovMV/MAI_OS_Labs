@@ -1,0 +1,1 @@
+/usr/local/bin/c++ CMakeFiles/control.dir/control.cpp.o -o control  liblab5_7_lib.a -lzmq 
