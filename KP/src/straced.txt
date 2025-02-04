@@ -1,0 +1,167 @@
+4276  execve("./allocator_compare", ["./allocator_compare"], 0x7fff708be798 /* 26 vars */) = 0
+4276  brk(NULL)                         = 0x1ad3d000
+4276  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f91a9a9d000
+4276  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4276  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+4276  newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=25786, ...}, AT_EMPTY_PATH) = 0
+4276  mmap(NULL, 25786, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f91a9a96000
+4276  close(3)                          = 0
+4276  openat(AT_FDCWD, "/usr/local/lib64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+4276  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+4276  newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2530008, ...}, AT_EMPTY_PATH) = 0
+4276  mmap(NULL, 2543808, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f91a9828000
+4276  mmap(0x7f91a98cd000, 1216512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa5000) = 0x7f91a98cd000
+4276  mmap(0x7f91a99f6000, 581632, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ce000) = 0x7f91a99f6000
+4276  mmap(0x7f91a9a84000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25c000) = 0x7f91a9a84000
+4276  mmap(0x7f91a9a92000, 12480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f91a9a92000
+4276  close(3)                          = 0
+4276  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+4276  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+4276  newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=907784, ...}, AT_EMPTY_PATH) = 0
+4276  mmap(NULL, 909560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f91a9749000
+4276  mmap(0x7f91a9759000, 471040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f91a9759000
+4276  mmap(0x7f91a97cc000, 368640, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x83000) = 0x7f91a97cc000
+4276  mmap(0x7f91a9826000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdc000) = 0x7f91a9826000
+4276  close(3)                          = 0
+4276  openat(AT_FDCWD, "/usr/local/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+4276  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+4276  newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=906528, ...}, AT_EMPTY_PATH) = 0
+4276  mmap(NULL, 181160, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f91a971c000
+4276  mmap(0x7f91a9720000, 143360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f91a9720000
+4276  mmap(0x7f91a9743000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7f91a9743000
+4276  mmap(0x7f91a9747000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7f91a9747000
+4276  close(3)                          = 0
+4276  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+4276  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20t\2\0\0\0\0\0"..., 832) = 832
+4276  pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+4276  newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1922136, ...}, AT_EMPTY_PATH) = 0
+4276  pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+4276  mmap(NULL, 1970000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f91a953b000
+4276  mmap(0x7f91a9561000, 1396736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f91a9561000
+4276  mmap(0x7f91a96b6000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17b000) = 0x7f91a96b6000
+4276  mmap(0x7f91a9709000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ce000) = 0x7f91a9709000
+4276  mmap(0x7f91a970f000, 53072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f91a970f000
+4276  close(3)                          = 0
+4276  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f91a9539000
+4276  arch_prctl(ARCH_SET_FS, 0x7f91a953a480) = 0
+4276  set_tid_address(0x7f91a953a750)   = 4276
+4276  set_robust_list(0x7f91a953a760, 24) = 0
+4276  rseq(0x7f91a953ada0, 0x20, 0, 0x53053053) = 0
+4276  mprotect(0x7f91a9709000, 16384, PROT_READ) = 0
+4276  mprotect(0x7f91a9747000, 4096, PROT_READ) = 0
+4276  mprotect(0x7f91a9826000, 4096, PROT_READ) = 0
+4276  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f91a9537000
+4276  mprotect(0x7f91a9a84000, 45056, PROT_READ) = 0
+4276  mprotect(0x405000, 4096, PROT_READ) = 0
+4276  mprotect(0x7f91a9acf000, 8192, PROT_READ) = 0
+4276  prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+4276  munmap(0x7f91a9a96000, 25786)     = 0
+4276  futex(0x7f91a9a9273c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4276  getrandom("\xd6\xf4\x18\xdb\xc3\xb7\x0b\x53", 8, GRND_NONBLOCK) = 8
+4276  brk(NULL)                         = 0x1ad3d000
+4276  brk(0x1ad5e000)                   = 0x1ad5e000
+4276  newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}, AT_EMPTY_PATH) = 0
+4276  write(1, "Creating allocators..\n", 22) = 22
+4276  mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9169537000
+4276  mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9129537000
+4276  write(1, "All memory: 1073741800 (McKuzi),"..., 51) = 51
+4276  write(1, "Created\n\n", 9)        = 9
+4276  write(1, "TEST 1 -- allocate lots of memor"..., 58) = 58
+4276  write(1, "Cycles count = 5\n\n", 18) = 18
+4276  write(1, "Block size = 2^1 (=2), Block cou"..., 43) = 43
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  write(1, "Result Allocate:\n", 17) = 17
+4276  write(1, " McKuzi: 92078 us,  Pow2:   157 "..., 51) = 51
+4276  write(1, "Result Free:\n", 13)    = 13
+4276  write(1, " McKuzi: 121 us,  Pow2:   24 us,"..., 49) = 49
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "Block size = 2^4 (=16), Block co"..., 44) = 44
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Result Allocate:\n", 17) = 17
+4276  write(1, " McKuzi: 92253 us,  Pow2:   185 "..., 51) = 51
+4276  write(1, "Result Free:\n", 13)    = 13
+4276  write(1, " McKuzi: 65 us,  Pow2:   24 us, "..., 48) = 48
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "Block size = 2^8 (=256), Block c"..., 45) = 45
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Result Allocate:\n", 17) = 17
+4276  write(1, " McKuzi: 184898 us,  Pow2:   242"..., 52) = 52
+4276  write(1, "Result Free:\n", 13)    = 13
+4276  write(1, " McKuzi: 453 us,  Pow2:   32 us,"..., 49) = 49
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "Block size = 2^16 (=65536), Bloc"..., 48) = 48
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Result Allocate:\n", 17) = 17
+4276  write(1, " McKuzi: 3275186 us,  Pow2:   27"..., 51) = 51
+4276  write(1, "Result Free:\n", 13)    = 13
+4276  write(1, " McKuzi: 599 us,  Pow2:   25 us,"..., 47) = 47
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "Block size = 2^32 (=1), Block co"..., 44) = 44
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Result Allocate:\n", 17) = 17
+4276  write(1, " McKuzi: 94777 us,  Pow2:   191 "..., 51) = 51
+4276  write(1, "Result Free:\n", 13)    = 13
+4276  write(1, " McKuzi: 55 us,  Pow2:   24 us, "..., 48) = 48
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "TEST 2 -- allocate a lot of memo"..., 69) = 69
+4276  write(1, "Allocate 10000 blocks of size=10"..., 50) = 50
+4276  write(1, "Free all even blocks (al1)\n", 27) = 27
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Free all even blocks (al2)\n", 27) = 27
+4276  write(1, "Fragmentation completed\n", 24) = 24
+4276  write(1, "Block size=80, Block count=5000\n", 32) = 32
+4276  write(1, "Result Allocate:\n", 17) = 17
+4276  write(1, " McKuzi: 226869 us,  Pow2:   106"..., 51) = 51
+4276  write(1, "Result Free:\n", 13)    = 13
+4276  write(1, " McKuzi: 109390 us,  Pow2:   13 "..., 51) = 51
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "TEST 3 -- allocate random blocks"..., 33) = 33
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Iteration 1:\n", 13)    = 13
+4276  write(1, " Allocate => McKuzi: 851621 us, "..., 60) = 60
+4276  write(1, " Free     => McKuzi: 133 us, Pow"..., 57) = 57
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Iteration 2:\n", 13)    = 13
+4276  write(1, " Allocate => McKuzi: 880286 us, "..., 60) = 60
+4276  write(1, " Free     => McKuzi: 158 us, Pow"..., 58) = 58
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Iteration 3:\n", 13)    = 13
+4276  write(1, " Allocate => McKuzi: 840714 us, "..., 60) = 60
+4276  write(1, " Free     => McKuzi: 134 us, Pow"..., 57) = 57
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Iteration 4:\n", 13)    = 13
+4276  write(1, " Allocate => McKuzi: 840328 us, "..., 60) = 60
+4276  write(1, " Free     => McKuzi: 156 us, Pow"..., 53) = 53
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  brk(0x1ad97000)                   = 0x1ad97000
+4276  write(1, "Iteration 5:\n", 13)    = 13
+4276  write(1, " Allocate => McKuzi: 747553 us, "..., 60) = 60
+4276  write(1, " Free     => McKuzi: 145 us, Pow"..., 57) = 57
+4276  brk(0x1ad83000)                   = 0x1ad83000
+4276  brk(0x1ad70000)                   = 0x1ad70000
+4276  write(1, "TEST 4 -- Usage factor (McKuzi)\n", 32) = 32
+4276  write(1, "All memory (McKuzi) = 1073741800"..., 33) = 33
+4276  write(1, "Total allocated: 2637125 bytes\n", 31) = 31
+4276  write(1, "Free memory:     1070864675 byte"..., 34) = 34
+4276  write(1, "Utilization factor: 0.916583\n", 29) = 29
+4276  write(1, "TEST 5 -- Usage factor (Pow2)\n", 30) = 30
+4276  write(1, "All memory (Pow2) = 1073741824\n", 31) = 31
+4276  write(1, "Total allocated: 300 bytes\n", 27) = 27
+4276  write(1, "Free memory:     0 bytes\n", 25) = 25
+4276  write(1, "Utilization factor: 2.79397e-07\n", 32) = 32
+4276  munmap(0x7f9169537000, 1073741824) = 0
+4276  munmap(0x7f9129537000, 1073741824) = 0
+4276  exit_group(0)                     = ?
+4276  +++ exited with 0 +++

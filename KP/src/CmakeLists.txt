@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Название проекта
+project(allocator_compare)
+
+# Указываем стандарт языка
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Общие флаги компиляции (опционально, можно настраивать)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall")
+
+# Создаём исполняемый файл из исходников
+add_executable(allocator_compare
+    main.cpp
+    Mckuzi.cpp
+    Pow2Allocator.cpp
+)
+
+# Если заголовочные файлы (Mckuzi.h, Pow2Allocator.h) лежат рядом, 
+# CMake найдёт их автоматически, но при необходимости путь к ним можно указать явно:
+# target_include_directories(allocator_compare PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
